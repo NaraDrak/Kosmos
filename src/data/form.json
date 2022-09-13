@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Default field",
+    "type": "text",
+    "placeholder": "Default field"
+  },
+  {
+    "label": "Default field",
+    "type": "select",
+    "placeholder": "Default field"
+  },
+  {
+    "label": "Default field",
+    "type": "radio",
+    "placeholder": "Default field"
+  }
+]
