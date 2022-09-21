@@ -16,7 +16,6 @@ code {
     monospace;
 }
 html{
-  background-color: rgb(56, 32, 32);
   color: black;
 }
 
@@ -26,12 +25,13 @@ html{
 }
 
 .form-container{
-  background: rgba(238, 9, 9, 0.274);
+  background: rgba(138, 2, 2, 0.692);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   overflow-y: hidden;
   margin-left: 50%;
-  height: 100%;
+  max-height: 100%;
+  min-height: 100vh;
 }
