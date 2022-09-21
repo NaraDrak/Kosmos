@@ -16,6 +16,7 @@ code {
     monospace;
 }
 html{
+  overflow-y: scroll;
   color: black;
 }
 
