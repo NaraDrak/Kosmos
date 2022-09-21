@@ -26,12 +26,11 @@ html{
 }
 
 .form-container{
-  background: red;
+  background: rgba(238, 9, 9, 0.274);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow-x: hidden;
   overflow-y: hidden;
   margin-left: 50%;
   height: 100%;
