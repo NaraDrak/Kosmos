@@ -28,8 +28,8 @@ const Forms = () => {
   };
 
   return (
-    <div className="text-white h-screen">
-      <div className="flex border-r-2 w-full h-52 bg-orange-300 justify-center items-center fixed top-0">
+    <div className="text-white">
+      <div className="input-container flex border-r-2 h-52 bg-orange-300 justify-center items-center fixed">
         {typesButtons.map((item, index) => {
           return (
             <button
@@ -43,8 +43,7 @@ const Forms = () => {
           );
         })}
       </div>
-
-      <div className="overflow-y-hidden w-full h-auto flex  justify-center flex-col items-center  pt-52">
+      <div className="form-container overflow-y-hidden">
         {form.map((item, index) => {
           return (
             <div className="py-4 ml-2" key={index}>

@@ -19,3 +19,20 @@ html{
   background-color: rgb(15, 26, 41);
   color: black;
 }
+
+.input-container{
+  width: 50%;
+  height: 100%;
+}
+
+.form-container{
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 50%;
+  height: 100%;
+}
